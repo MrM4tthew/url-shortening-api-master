@@ -16,11 +16,9 @@ function shortenLink() {
     copyBtn.innerText = "Copy"
     linkBtn.innerText = "Loading..."
 
-
-
     // Activate shorten link API
     const getUrl = inputLink.value;
-    const dataPromise = fetch(`https://api.shrtco.de/v2/shorten?url=${getUrl}`);
+    const dataPfdrtromise = fetch(`https://api.shrtco.de/v2/shorten?url=${getUrl}`);
 
     console.log(getUrl)
 
